@@ -1,0 +1,38 @@
+work_dir: ${hydra:runtime.cwd}
+save_dir: ${hydra:run.dir}
+
+defaults:
+  - data_paths: lyft.yaml
+  - _self_
+
+result_path: ???
+save_path: ???
+dataset: lyft
+
+n_processes: 8
+
+det_filtering:
+  pp_score_percentile: 20
+  pp_score_threshold: 0.5
+  and_operation: True
+  confidence_score_threshold: 0.5
+
+  # check_consistency:
+  #   threshold: 0.3
+  #   ratio: 0.5
+
+  # check_aum:
+  #   threshold: -1.
+
+  # remove_near_fov:
+  #   border: 100
+
+  posterior_regularization:
+    by_aum: False
+    min_val: -1.
+    min_num_boxes: -1
+    car: 3.8677262931034484  # 1.21
+    pedestrian: 0.5945581896551724  # 0.186
+    cyclist: 0.19773706896551724  # 0.061
+    bicyclist: 0.19773706896551724
+    alpha: 0.333333

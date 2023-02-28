@@ -1,0 +1,11 @@
+index_file_train: ${work_dir}/p2_score/meta_data/lyft/fw70_2m_train_idx.txt
+p2score_path: ${work_dir}/p2_score/precomputed_p2/lyft/pp_score_fw70_2m_r0.3
+scan_path: ${work_dir}/downstream/OpenPCDet/data/lyft/training/velodyne/
+calib_path: ${work_dir}/downstream/OpenPCDet/data/lyft/training/calib/
+track_path: ${work_dir}/p2_score/meta_data/lyft/fw70_2m_train_track_list.pkl
+idx_info: ${work_dir}/p2_score/meta_data/lyft/fw70_2m_valid_train_idx_info.pkl
+
+load_precomputed_lidars: null
+load_save_precomputed_trans_mat: null
+
+image_shape: [1024, 1224]

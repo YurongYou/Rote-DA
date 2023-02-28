@@ -1,0 +1,12 @@
+work_dir: ${hydra:runtime.cwd}
+save_dir: ${hydra:run.dir}
+
+defaults:
+  - data_paths: lyft.yaml
+  - _self_
+
+dataset: lyft
+
+max_neighbor_dist: 0.3
+nusc: False
+ephe_type: entropy

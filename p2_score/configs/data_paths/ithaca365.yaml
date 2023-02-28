@@ -1,0 +1,6 @@
+p2score_path: ${work_dir}/p2_score/precomputed_p2/ithaca365/p2_score_fw70_5m_20hist
+scan_path: ${work_dir}/downstream/OpenPCDet/data/ithaca365/v1.1
+version: 'v1.1'
+only_accurate_localization: True
+
+image_shape: [1920, 1208]
