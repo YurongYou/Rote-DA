@@ -4,9 +4,9 @@ This is the official code release for
 
 by [Yurong You](https://yurongyou.com/)\*, [Katie Z Luo](https://www.cs.cornell.edu/~katieluo/)\*, [Cheng Perng Phoo](https://www.cs.cornell.edu/~cpphoo/)\*, [Travis Zhang](https://github.com/zhangtravis),[Wei-Lun Chao](https://sites.google.com/view/wei-lun-harry-chao), [Bharath Hariharan](http://home.bharathh.info/), [Mark Campbell](https://research.cornell.edu/researchers/mark-campbell), and [Kilian Q. Weinberger](https://www.cs.cornell.edu/~kilian/)
 
-[Paper](https://openreview.net/pdf?id=0fKlU1OlANc) | [Video]()
+[Paper](https://openreview.net/pdf?id=0fKlU1OlANc) | [Video](https://nips.cc/virtual/2022/poster/53349)
 
-**Interested in perception with multiple traversals? Also see [Hindsight is 20/20](https://github.com/YurongYou/Hindsight).**
+**Interested in perception with multiple traversals? Also see [Hindsight is 20/20](https://github.com/YurongYou/Hindsight) and [MODEST](https://github.com/YurongYou/MODEST).**
 
 ![Figure](figures/banner.jpg)
 
