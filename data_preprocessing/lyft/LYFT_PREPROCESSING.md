@@ -5,6 +5,8 @@ Download the Lyft Level 5 AV Dataset (Perception)
 from https://level5.lyft.com/dataset/ and decompress it
 into `LYFT_ROOT`. Install Lyft Dataset SDK (https://github.com/lyft/nuscenes-devkit):
 
+**[Update]**: The Lyft L5 dataset has moved! Please download from the official site: https://woven.toyota/en/perception-dataset.
+
 ```bash
 pip install -U git+https://github.com/lyft/nuscenes-devkit
 ```
